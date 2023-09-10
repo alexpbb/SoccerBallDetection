@@ -5,4 +5,5 @@ I found a GitHub repository that went into detail about the basics of machine le
 Link to Repo: https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
 
 For this project, I worked with Python, JupyterNotebook, Colab, TensorFlow, OpenCV, and other Python dependencies. I had issues with JupyterNotebook when it came to running the training script for the model which led to me switching to Colab to train it. I used an SSD MobileNet pre-trained model obtained from the TensorFlow Model Zoo. I used a dataset of 26 images; 20 of which were used for training and the other 6 for testing. When running the training script, I configured the pipeline to be 5000 steps with a batch size of 10. With these settings, I obtained an average mAP of 56.25%.
+
 ![Screenshot 2023-09-09 202840](https://github.com/alexpbb/SoccerBallDetection/assets/133996219/f2a2ebd2-81bf-41cb-a776-b24ba504145e)
